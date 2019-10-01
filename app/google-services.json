@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "864277962921",
+    "firebase_url": "https://projectilevomcom.firebaseio.com",
+    "project_id": "projectilevomcom",
+    "storage_bucket": "projectilevomcom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864277962921:android:ecbb652d450cbd43aa09b8",
+        "android_client_info": {
+          "package_name": "com.example.deya.projectilevomcom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864277962921-sasl2tkp348ueugoe2phi2mr0lfubh9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg8AffEa5JU9WQwVHvAWrvups-kFSHWSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864277962921-sasl2tkp348ueugoe2phi2mr0lfubh9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -27,24 +27,27 @@ references:
       at: *workspace
   persist_debug_workspace: &persist_debug_workspace
     persist_to_workspace:
-      root: *workspace
+      root: .
       paths:
+        - .
         - app/build/outputs/androidTest-results
         - app/build/outputs/apk
         - app/build/outputs/code-coverage
         - app/build/test-results
   persist_release_workspace: &persist_release_workspace
     persist_to_workspace:
-      root: *workspace
+      root: .
       paths:
+        - .
         - app/build
   attach_firebase_workspace: &attach_firebase_workspace
     attach_workspace:
       at: *workspace
   persist_firebase_workspace: &persist_firebase_workspace
     persist_to_workspace:
-      root: *workspace
+      root: .
       paths:
+        - .
         - firebase
 
   ## Docker image configuration
